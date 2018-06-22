@@ -238,6 +238,16 @@
             }
           ]
         }
+        ,{
+          "name": "AMAZONSearchQuery",
+          "values": [
+            {
+              "name": {
+                "value": "amazon"
+              }
+            }
+          ]
+        }
       ]
     },
     "dialog": {

@@ -14,6 +14,17 @@
           "smallIconUri": "https://s3.amazonaws.com/alexa-salesforce-demo/briefcase_108.png",
           "largeIconUri": "https://s3.amazonaws.com/alexa-salesforce-demo/briefcase_512.png"
         }
+        ,"es-ES": {
+          "summary": "Demostración de integración entre Alexa y Salesforce",
+          "examplePhrases": [
+            "Alexa, pregunta a coco por una oportunidad",
+            "Alexa, pregunta a coco para cambiar mi código de acceso"
+          ],
+          "name": "Salesforce Demo",
+          "description": "A demonstration of Alexa skills accessing Salesforce data.\n\nIn order to access your Salesforce data, you will need to set up a voice code for the first time you use this skill.\n\nAfterwards, when you request your data by saying \"Alexa, ask Salesforce Demo for a recent opportunity\", Alexa will have you validate your voice code first to help determine if it's you.\n\nYou can also change your voice code by requesting \"Alexa, ask Salesforce Demo to change my voice code\".\n\nAt anytime, you can stop the skill by saying \"Alexa, stop\".",
+          "smallIconUri": "https://s3.amazonaws.com/alexa-salesforce-demo/briefcase_108.png",
+          "largeIconUri": "https://s3.amazonaws.com/alexa-salesforce-demo/briefcase_512.png"
+        }
       },
       "isAvailableWorldwide": true,
       "testingInstructions": "Required a Salesforce account to be linked for testing.",
