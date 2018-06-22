@@ -16,6 +16,56 @@
  */
  
 var languageString = {
+  "es":{
+    "translation": {
+      /* General messaging */
+      "CANCEL_MESSAGE": "Ok, I've cleared your session details. Goodbye. ",
+      "LIKE_TO_DO": "¿Que te gustaría hacer? ",
+      "PROMPT": "¿Como te puedo ayudar? ",
+      "STOP_MESSAGE": "Ok, bye! ",
+      "WELCOME_HAS_CODE": "Para empezar dí tu código de 4 dígitos. ",
+      "WELCOME_MESSAGE": "Bienvenido al ejemplo de integración con Salesforce. ",
+      "WELCOME_NO_CODE": "Para utilizar esta skill, tienes que configurar primero un código de 4 dígitos. Por favor diga el código de 4 dígitos ahora. ",
+      "WELCOME_SKILL": "Tu código sigue siendo válido. ",
+      "WELCOME_SUCCESS_CODE": "Genial, he verificado tu identidad usando tu código. ",
+      "WELCOME_SUCCESS_NEW_CODE": "He actualizado tu código. ",
+
+      /* Help messaging */
+      "HELP_MESSAGE": "Esta skill se puede usar para ver como Alexa trabaja con Salesforce. Puedes configurar un código de acceso, como acceder a los datos de Salesforce a través del proceso de lincado de la cuenta.  Prueba preguntando por un candidato reciente o una oportunidad. Para probar el proceso del código de acceso, prueba preguntandome para empezar de nuevo, tendrás que volver a autenticater. Por último tambien puedes cambiar el código de voz ¿Como te puedo ayudar? ",
+      "SHORT_HELP": "Puedes preguntar por el candidato más reciente, o puedo buscar una oportunidad por su nombre. ¿Que quieres que haga? ",
+
+      /* Slot Elicitation */
+      "OPPORTUNITY_VALUE": "¿Cuál es el importe?",
+      "OPPORTUNITY_DATE": "¿Cuál es la nueva fecha de cierre?",
+      "OPPORTUNITY_STAGE": "¿Cuál es la nueva etapa?",
+
+      /* Account/Voice Code Related messages */
+      "ACCOUNT_RELINK_MESSAGE": "Es necesario volver a linkar la cuenta para seguir usando esta skill. He dejado más información en una targeta en tu app de Alexa. ",
+      "ACCOUNT_REQUIRED_MESSAGE": "Es necesario una cuenta de Salesforce para utilizar esta skill. He dejado más información en una targeta en tu app de Alexa.. ",
+      "ACCOUNT_REQUIRED_CARD": "Relink tu cuenta. Para volver a linkar tu cuenta, abre la skill con la aplicación de Alexa  y click en el botón de re-link. ",
+      "CODE_REPEAT_REQUEST": "Por favor vuelve a decir tu código una vez mas. ",
+      "CHANGE_NEW_CODE": "Dí tu nuevo código de 4-digitos ahora. ",
+      "CHANGE_PROVIDE_CODE": "Antes de cambiar el código de acceso ¿Puedes decirme tu código actual? ",
+      "CODE_REQUEST": "Por favor dí tu código de acceso. ",
+      "CODE_SET": "He guardado tu código de acceso . Tendrás que usarlo la próxima vez que utilices esta skill, ¡No te olvides de él! ",
+
+      /* Salesforce related messages */
+      "LEAD": "Tú candidato más reciente es %s de %s. ",
+      "LEAD_NOT_FOUND": "No he encontrado ningún candidato. ¿Que más puedo hacer?",
+      "OPPORTUNITY": "Tú oportunidad másreciente, que no está cerrada es  %s  y está en la etapa %s. ",
+      "OPPORTUNITY_CARD": "ID: %s\nNombre: %s\nFecha de cierre: %s\nEtapa: %s\nImporte: %s",
+      "OPPORTUNITY_CARD_TITLE": "Detalle de la oportunidad",
+      "OPPORTUNITY_ERROR": "Encontre un error cuando intentaba actualizar la oportunidad. Por favor vuelva a intentarlo más tarde. ",
+      "OPPORTUNITY_NOT_FOUND": "No he encontrado ninguna oportunidad. ¿Puedes decir otro nombre? ",
+      "OPPORTUNITY_PREVIOUS": "Aquí está la última oportunidad que has elegido, %s. Para eliminar la selección, dime que lo cancele. Por otro lado, puedes actualizar la etapa, el precio, o la fecha de cierre.",
+      "OPPORTUNITY_SELECTED": "Encontre la oportunidad  %s. Puedes actualizar la etapa, el precio, o la fecha de cierre. ",
+      "OPPORTUNITY_UPDATE": "He actualizado la oportunidad. ",
+
+      /* Error messages */
+      "UNKNOWN_SALESFORCE_ERROR": "Encontre un error cuando intentaba conectarme con Salesforce. Por favor vuelva a intentarlo más tarde.",
+      "UNKNOWN_ERROR": "Encontre un error con tu pertición. Por favor vuelva a intentarlo más tarde. ",
+    }
+  },
   "en": {
     "translation": {
       /* General messaging */
