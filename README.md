@@ -1,4 +1,4 @@
-# Private Alexa Skill With Salesforce Integration
+#WIP Private Alexa Skill With Salesforce Integration
 
 <img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/quiz-game/header._TTH_.png" />
 
@@ -7,6 +7,8 @@
 ## Introduction
 
 This skill demonstrates how to build a private Alexa skill to access  Salesforce data. It includes using account linking, via a connected app in Salesforce, along with a voice code confirmation process that stores the code as a custom setting in Salesforce. Then, you can access opportunities and make updates to them using your voice.
+
+De momento es una copia de la versión en Ingles. La idea es crear lo mismo con la versión española de Alexa. Espero acabarla pronto
 
 ## Pre-requisites
 
